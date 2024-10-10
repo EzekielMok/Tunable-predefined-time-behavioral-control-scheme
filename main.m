@@ -1,5 +1,5 @@
 % Ezekiel
-% 2024/09/24
+% 2024/10/10
 clc,clear
 close all
 sim.t_total = 20;%s
