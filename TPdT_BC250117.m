@@ -456,7 +456,7 @@ figure(6)
 subplot(2,1,1)
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
+set(gcf, 'Position', [100, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'ylabel'), 'String', 'Distance (m)', 'fontSize', param.fontsize);
 set(get(gca, 'xlabel'), 'String', 't (s)', 'fontSize', param.fontsize);
@@ -471,7 +471,7 @@ axis([0,24,0,20])
 subplot(2,1,2)
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
+set(gcf, 'Position', [100, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'ylabel'), 'String', 'Distance (m)', 'fontSize', param.fontsize);
 set(get(gca, 'xlabel'), 'String', 't (s)', 'fontSize', param.fontsize);
@@ -488,7 +488,7 @@ figure(2);
 subplot(3,1,1)
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
+% set(gcf, 'Position', [100, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'ylabel'), 'String', 'Task error (m)', 'fontSize', param.fontsize);
 set(get(gca, 'xlabel'), 'String', 't (s)', 'fontSize', param.fontsize);
@@ -506,7 +506,7 @@ legend('Robot1: ||q_1-q_0-ρ_1||','Robot2: ||q_2-q_0-ρ_2||','Robot3: ||q_3-q_0-
 subplot(3,1,2)
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
+% set(gcf, 'Position', [100, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'ylabel'), 'String', 'Estimating error (m)', 'fontSize', param.fontsize);
 set(get(gca, 'xlabel'), 'String', 't (s)', 'fontSize', param.fontsize);
@@ -525,7 +525,7 @@ legend('Robot 1','Robot 2','Robot 3','Location','northEast');
 subplot(3,1,3)
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
+% set(gcf, 'Position', [-1800, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'ylabel'), 'String', 'Control input (N·m)', 'fontSize', param.fontsize);
 set(get(gca, 'xlabel'), 'String', 't (s)', 'fontSize', param.fontsize);
@@ -538,7 +538,7 @@ axis([0,24,0,4*10^4])
 figure(1);
 hold on; box on;
 grid on
-set(gcf, 'Position', [-1200, 100, 1.2*800, 1.2*600]);
+% set(gcf, 'Position', [-1200, 100, 1.2*800, 1.2*600]);
 set(gca, 'fontSize', param.fontsize)
 set(get(gca, 'xlabel'), 'String', 'x (m)', 'fontSize', param.fontsize);
 set(get(gca, 'ylabel'), 'String', 'y (m)', 'fontSize', param.fontsize);
